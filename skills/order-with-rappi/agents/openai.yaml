@@ -1,0 +1,4 @@
+interface:
+  display_name: "Order with Rappi"
+  short_description: "Prepare a Rappi cart for review"
+  default_prompt: "Use $order-with-rappi to prepare my Rappi cart and stop before purchase."

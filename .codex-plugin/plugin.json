@@ -1,0 +1,43 @@
+{
+  "name": "rappi",
+  "version": "0.2.2",
+  "description": "Prepare and review one-time Rappi carts or scheduled repeat-purchase proposals without placing orders.",
+  "author": {
+    "name": "PedroAVJ",
+    "url": "https://github.com/PedroAVJ"
+  },
+  "homepage": "https://github.com/PedroAVJ/rappi",
+  "repository": "https://github.com/PedroAVJ/rappi",
+  "license": "MIT",
+  "keywords": [
+    "rappi",
+    "shopping",
+    "delivery",
+    "cart",
+    "pharmacy"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Rappi",
+    "shortDescription": "Prepare Rappi carts for final review",
+    "longDescription": "Search the live Rappi storefront, compare current prices and delivery times, and prepare reversible one-time carts or scheduled repeat-purchase proposals for the user's review without using private APIs or placing an order.",
+    "developerName": "PedroAVJ",
+    "category": "Shopping",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/PedroAVJ/rappi",
+    "defaultPrompt": [
+      "Find the right Rappi item and prepare my cart",
+      "Compare Rappi prices and delivery times",
+      "Review my Rappi cart without checking out",
+      "Prepare my scheduled Rappi restock cart"
+    ],
+    "brandColor": "#FF441F",
+    "composerIcon": "./assets/rappi-icon.svg",
+    "logo": "./assets/rappi-icon.svg",
+    "screenshots": []
+  }
+}
