@@ -7,7 +7,7 @@ import test from "node:test";
 const root = fileURLToPath(new URL("..", import.meta.url));
 const expected = {
   name: "rappi",
-  version: "0.2.2",
+  version: "0.2.3",
   url: "https://github.com/PedroAVJ/rappi",
 };
 
@@ -24,7 +24,7 @@ test("standalone plugin metadata is synchronized", async () => {
   assert.equal(codex.version, expected.version);
   assert.equal(codex.homepage, expected.url);
   assert.equal(codex.repository, expected.url);
-  assert.equal(codex.interface.category, "Shopping");
+  assert.equal(codex.interface.category, "Productivity");
   assert.equal(codex.interface.brandColor, "#FF441F");
   assert.equal(codex.interface.composerIcon, "./assets/rappi-icon.svg");
   assert.equal(codex.interface.logo, "./assets/rappi-icon.svg");

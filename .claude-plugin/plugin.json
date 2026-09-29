@@ -1,6 +1,6 @@
 {
   "name": "rappi",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Prepare and review one-time Rappi carts or scheduled repeat-purchase proposals without placing orders.",
   "author": {
     "name": "PedroAVJ",

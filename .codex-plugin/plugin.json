@@ -1,6 +1,6 @@
 {
   "name": "rappi",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Prepare and review one-time Rappi carts or scheduled repeat-purchase proposals without placing orders.",
   "author": {
     "name": "PedroAVJ",
@@ -22,7 +22,7 @@
     "shortDescription": "Prepare Rappi carts for final review",
     "longDescription": "Search the live Rappi storefront, compare current prices and delivery times, and prepare reversible one-time carts or scheduled repeat-purchase proposals for the user's review without using private APIs or placing an order.",
     "developerName": "PedroAVJ",
-    "category": "Shopping",
+    "category": "Productivity",
     "capabilities": [
       "Interactive",
       "Read",
